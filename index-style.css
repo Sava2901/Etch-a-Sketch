@@ -32,7 +32,10 @@ header > form{
     max-width: 450px;
 }
 
-#separator{
+#separator1{
+    height:7vh;
+}
+#separator2{
     height:7vh;
 }
 
