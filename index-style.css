@@ -1,0 +1,109 @@
+html{
+    background-color: #1d1d1d;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header{
+    background-color: #1d1d1d;
+    position: sticky;
+    z-index: 1;
+    top:0;
+    height: 7vh;
+}
+
+header > a{
+    padding: 10px;
+}
+
+#description{
+    background-color: #141414;
+    border-radius:10px 100px 10px 100px;
+    height:86vh;
+}
+
+.descriptionText{
+    opacity: 0;
+    animation: fade 1s ease-in 1s forwards;
+    max-width: 450px;
+}
+
+#separator{
+    height:7vh;
+}
+
+#game{
+    padding-top:50px;
+    flex-direction: column;
+    background-color: #141414;
+    border-radius:10px 100px 10px 100px;
+    height: 82vh;
+}
+
+.gridContainer{
+    display: grid;
+    height: 66%;
+}
+
+.gameButtons{
+    gap: 20px;    
+    margin:20px;
+}
+
+footer{
+    justify-content: space-around !important;
+    background-color: #1d1d1d;
+    height: 5vh;
+}
+
+.flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-family: roboto;
+    color: #eeeeee;
+}
+.titleText{
+    font-weight: 700;
+    font-size: 56px;
+    writing-mode: vertical-lr;
+    padding-right: 30px;
+    background: linear-gradient(to top ,#440057, #3a0ea0);
+    background-clip: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button{
+    cursor: pointer;
+    width:5rem;
+    height:2rem;
+    border: none;
+    border-radius: 10px;
+    background-color:#440057;
+}
+
+.button:hover{
+    background-color:#5e1572;
+}
+
+@font-face{
+    font-family: roboto;
+    src: "./Fonts/Roboto_Mono";
+}
+
+@keyframes fade{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
