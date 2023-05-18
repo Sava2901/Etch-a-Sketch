@@ -16,7 +16,7 @@ header{
     height: 7vh;
 }
 
-header > a{
+header > form{
     margin: 10px;
 }
 
@@ -89,6 +89,7 @@ footer{
     border: none;
     border-radius: 10px;
     background-color:#440057;
+    color:#eeeeee;
 }
 
 .button:hover{
