@@ -56,8 +56,9 @@ header > a{
 
 footer{
     justify-content: space-around !important;
-    background-color: #1d1d1d;
+    background-color: #141414;
     height: 5vh;
+    margin-bottom: -3vh;
 }
 
 .flexContainer{
@@ -67,7 +68,7 @@ footer{
 }
 
 .text{
-    font-family: roboto;
+    font-family: "Roboto Mono";
     color: #eeeeee;
 }
 .titleText{
@@ -92,11 +93,6 @@ footer{
 
 .button:hover{
     background-color:#5e1572;
-}
-
-@font-face{
-    font-family: roboto;
-    src: "./Fonts/Roboto_Mono";
 }
 
 @keyframes fade{
