@@ -4,6 +4,7 @@ html{
 }
 
 body{
+    min-width: 550px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -37,15 +38,12 @@ header > form{
 }
 
 #game{
+    flex-direction: column;
+    position: relative;
     padding-top:50px;
     background-color: #141414;
     border-radius:10px 100px 10px 100px;
     height: 82vh;
-}
-
-#game > div:nth-child(2n - 1){
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .inputBox{
@@ -60,6 +58,9 @@ header > form{
     margin-left: 20px;
 }
 
+.warning{
+    height:21px;
+}
 
 .gameButtons{
     gap: 20px;    
@@ -85,6 +86,10 @@ footer{
     background-color: #eeeeee;
     width: 500px !important;
     height: 500px !important;
+}
+
+.colorWheel{
+    border: none;
 }
 
 .center{

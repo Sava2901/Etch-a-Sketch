@@ -50,23 +50,27 @@
     <div id="separator1">
     </div>
 
-    <div id="game">
-        <div class="flexContainer">
-            <label for="size" class="text">Select the size:</label>
-            <input type="text" class="inputBox text"></input>
-            <button class="button submitButton">Submit</button>
+    <div id="game" class="flexContainer">
+
+        <div>
+            <div class="flexContainer">
+                <label for="size" class="text">Select the size:</label>
+                <input type="text" class="inputBox text"></input>
+                <button class="button submitButton">Submit</button>
+            </div>
+
+            <div class="warning">
+            </div>
         </div>
 
         <div class="gridContainer center">
-            <div class="gridChild"></div>
-            <div class="gridChild"></div>
-            <div class="gridChild"></div>
-            <div class="gridChild"></div>
         </div>
 
         <div class="flexContainer gameButtons">
             <button class="text button gameButton back">Back</button>
             <button class="text button gameButton reset">Reset</button>
+            <button class="text button gameButton forward">Forward</button>
+            <input type="color" class="colorWheel"></input>
         </div>
     </div>
 
