@@ -88,6 +88,10 @@ footer{
     height: 500px !important;
 }
 
+.gridChild{
+    user-select: none;
+}
+
 .colorWheel{
     border: none;
 }
